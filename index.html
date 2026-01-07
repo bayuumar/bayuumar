@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Digital Marketing & Web Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Bayu Umar</div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Digital Marketing & Web Solutions That Drive Results</h1>
+                <p class="hero-subtitle">Specializing in digital marketing strategies, website development, and UI/UX design to help businesses grow and succeed online.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-placeholder">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know me and my expertise</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate digital professional with expertise in marketing, web development, and design. I help businesses establish a strong online presence through strategic digital marketing, custom websites, and intuitive user experiences.</p>
+                    <p>With years of experience in the digital space, I combine creativity with data-driven strategies to deliver results that matter. My approach focuses on understanding client needs and creating solutions that not only look great but also perform exceptionally.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>30+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-placeholder">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services & Expertise</h2>
+                <p>What I can do for you</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategic marketing campaigns across Meta Ads, Google Ads, content marketing, and growth strategies to increase brand awareness and drive conversions.</p>
+                    <ul class="service-list">
+                        <li>Meta & Google Ads Management</li>
+                        <li>Content Marketing Strategy</li>
+                        <li>Social Media Growth</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Custom website development using modern technologies including HTML, CSS, JavaScript, and popular CMS platforms for responsive, fast, and user-friendly sites.</p>
+                    <ul class="service-list">
+                        <li>CSS/JavaScript/PHP</li>
+                        <li>Responsive Design</li>
+                        <li>CMS Integration</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design approach creating intuitive interfaces, wireframes, prototypes, and user flows that enhance user experience and drive engagement.</p>
+                    <ul class="service-list">
+                        <li>Wireframing & Prototyping</li>
+                        <li>User Research & Testing</li>
+                        <li>Interface Design</li>
+                        <li>User Flow Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Recent projects and case studies</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="marketing">Digital Marketing</button>
+                <button class="filter-btn" data-filter="web">Website</button>
+                <button class="filter-btn" data-filter="design">UI/UX</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-image">
+                        <img src="assets/project1.jpg" alt="E-commerce Growth Campaign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>E-commerce Growth Campaign</h3>
+                                <p>Increased sales by 150% through targeted Meta Ads and email marketing strategies.</p>
+                                <div class="tools">
+                                    <span>Meta Ads</span>
+                                    <span>Google Analytics</span>
+                                    <span>Mailchimp</span>
+                                </div>
+                                <a href="#" class="btn btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="assets/project2.jpg" alt="Corporate Website Redesign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Corporate Website Redesign</h3>
+                                <p>Modern, responsive website with improved user experience and 40% faster load times.</p>
+                                <div class="tools">
+                                    <span>HTML/CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>WordPress</span>
+                                </div>
+                                <a href="#" class="btn btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="assets/project3.jpg" alt="Mobile App UI Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Mobile App UI Design</h3>
+                                <p>Intuitive mobile app design with focus on user experience and modern design principles.</p>
+                                <div class="tools">
+                                    <span>Figma</span>
+                                    <span>canva</span>
+                                    <span>Photoshop</span>
+                                </div>
+                                <a href="#" class="btn btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-image">
+                        <img src="assets/project4.jpg" alt="Brand Awareness Campaign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Brand Awareness Campaign</h3>
+                                <p>Comprehensive social media campaign that increased brand engagement by 200%.</p>
+                                <div class="tools">
+                                    <span>Social Media</span>
+                                    <span>Content Creation</span>
+                                    <span>Analytics</span>
+                                </div>
+                                <a href="#" class="btn btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="assets/project0.png" alt="E-commerce ">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>E-commerce</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>E-commerce Platform</h3>
+                                <p>Full-featured online store with payment integration and inventory management.</p>
+                                <div class="tools">
+                                    <span>Shopify</span>
+                                    <span>HTML/CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <a href="#" class="btn btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="assets/project6.jpg" alt="Website UX Redesign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Website UX Redesign</h3>
+                                <p>User experience overhaul that improved conversion rates by 35%.</p>
+                                <div class="tools">
+                                    <span>Figma</span>
+                                    <span>User Testing</span>
+                                    <span>Prototyping</span>
+                                </div>
+                                <a href="#" class="btn btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Tools</h2>
+                <p>Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Marketing Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Meta Ads Manager</span>
+                        <span class="skill-item">Google Ads</span>
+                        <span class="skill-item">Google Analytics</span>
+                        <span class="skill-item">Facebook Insights</span>
+                        <span class="skill-item">Mailchimp</span>
+                        <span class="skill-item">Hootsuite</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Design Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Figma</span>
+                        <span class="skill-item">Canva</span>
+                        <span class="skill-item">Sketch</span>
+                        <span class="skill-item">Photoshop</span>
+                        <span class="skill-item">Illustrator</span>
+                        <span class="skill-item">InVision</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">PHP</span>
+                        <span class="skill-item">WordPress</span>
+                        <span class="skill-item">Shopify</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <p>Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>bayuumar70@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a id="wa-link" href="https://wa.me/6287884240870" target="_blank" rel="noopener">+62 8788 4240 870</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Purwodadi, Central java Country</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+
+                    <!-- Confirmation modal for WhatsApp redirect -->
+                    <div id="confirmModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="confirmModalTitle">
+                        <div class="modal-content" role="document">
+                            <h3 id="confirmModalTitle">Kirim lewat WhatsApp?</h3>
+                            <p id="confirmModalMessage">Pesan akan dibuka di WhatsApp. Lanjutkan?</p>
+                            <div class="modal-actions">
+                                <button id="confirmCancel" class="btn btn-secondary">Batal</button>
+                                <button id="confirmOk" class="btn btn-primary">Buka WhatsApp</button>
+                            </div>
+                        </div>
+                    </div>"
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Portfolio. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
